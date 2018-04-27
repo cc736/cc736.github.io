@@ -1,0 +1,287 @@
+/* general styling and classes*/
+p, h1, h2, h3, h4, a, ul{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+p{
+  line-height: 150%;
+  font-weight: 400;
+}
+
+h1{
+  margin-bottom: 5px;
+}
+h2{
+  margin-top: 5%;
+  margin-bottom: 1%;
+  font-size: 30px;
+  font-weight: 700;
+}
+h4{
+  margin-top: 1%;
+  margin-bottom: 5%;
+  color: grey;
+}
+.page_content{
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+/* header styling */
+header #header_container{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  display: flex
+}
+
+header #title{
+  flex: 2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header #menu_container{
+  flex: 1;
+  float: left;
+  margin-top: 16px;;
+}
+
+#menu {
+  display: inline;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu li {
+  display: inline;
+}
+
+.active{
+  color: black;
+  font-weight: bold;
+}
+
+.static{
+  color: grey;
+}
+
+#menu a{
+  text-decoration: none;
+  font-size: 16px;
+  padding-left: 80px;
+  padding-right: 1px;
+}
+
+#menu a:hover{
+  color: #4A90E2;
+}
+
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid grey;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* index styling  */
+#project_parent{
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.project_child{
+  flex: 1;
+  margin-right: 1%;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #E7E7E7;
+}
+
+.project_img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+
+p.project_title{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  padding-left: 8%;
+  margin-top: 6%;
+}
+
+p.project_description{
+  font-size: 16px;
+  font-weight: normal;
+  color: black;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 3%
+}
+p.project_link{
+  font-size: 16px;
+  font-weight: normal;
+  color: #4A90E2;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 6%
+}
+.venmo_more{
+  text-decoration: none;
+  color: #FFA491;
+}
+
+.venmo_more:hover{
+  text-decoration: none;
+  color: black;
+}
+.events_more{
+  text-decoration: none;
+  color: #89AAF7;
+}
+.events_more:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.edusim_more{
+  text-decoration: none;
+  color: #FFEC92;
+}
+
+/* code styling */
+.code_project{
+  margin-bottom: 10%;
+  box-shadow: 0px 5px 10px #E7E7E7;
+  border-radius: 7.5px;
+}
+.code_img{
+  width: 100%;
+  border-top-right-radius: 7.5px;
+  border-top-left-radius: 7.5px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.code_details{
+  display: flex;
+  padding-bottom: 1.5%;
+  padding-top: 0.75%;
+}
+.code_left{
+  flex: 1;
+}
+.code_right{
+  flex: 2;
+  margin-right: 4%;
+}
+p.code_title{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding-left: 12%;
+  margin-top: 4%;
+}
+p.code_toolbox{
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  padding-left: 12%;
+}
+ul.code_tools{
+  padding-left: 16%;
+  line-height: 140%;
+}
+p.code_description{
+  margin-top: 2%;
+  line-height: 160%;
+}
+
+/* about styling */
+.about{
+  width: 70%;
+  margin-left: 15%;
+}
+
+.aboutLast{
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 7.5%;
+}
+
+#contact_form{
+  width: 70%;
+  margin-left: 15%;
+  margin-left: 15%;
+  margin-bottom: 10%;
+}
+
+.contact_subheading{
+  margin-bottom: 1%;
+  margin-top: 4%;
+}
+
+#contact_name, #contact_email{
+  width: 100%;
+  height: 20px;
+}
+
+#contact_details{
+  width: 100%;
+  height: 20px;
+  overflow-y: scroll;
+}
+
+input[type="submit"]{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #4A90E2;
+  font-weight: bold;
+}
+
+#contact_button{
+  margin-top: 4%;
+  height: 40px;
+  width: 50%;
+  border-radius: 100px;
+  border: 2px solid #4A90E2;
+  background-color: white;
+}
+
+#contact_button:hover, #contact_button:active{
+  background-color:  #4A90E2;
+  transition-duration: 0.4s;
+  color: white
+}
+
+#about_header{
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 7.5px;
+  box-shadow: 0px 5px 10px #E7E7E7;
+}
+
+/* response styling  */
+#response{
+  font-size: 20px
+}
+
+span.echoed{
+  font-size: 24px;
+  font-weight: bold;
+  color: #4A90E2;
+}
+span.echoedLess{
+  font-size: 24px;
+  font-weight: normal;
+  color: #4A90E2;
+}
