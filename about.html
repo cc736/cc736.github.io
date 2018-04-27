@@ -1,44 +1,3 @@
-<?php
-include("includes/init.php");
-
-$onThisPage="about";
-
-$form= (isset($_REQUEST["submit"]) ? $_REQUEST["submit"] : null);
-
-if (isset($form)){
-  $name=$_REQUEST["contact_name"];
-  $email=$_REQUEST["contact_email"];
-  $details=$_REQUEST["contact_details"];
-
-  if (((!empty($name)) && (!empty($email) && (filter_var($email, FILTER_VALIDATE_EMAIL))) && ( !empty($details)) )){
-    $success = true;
-  } else{
-    $success = false;
-  }
-
-
-  if ($success){
-
-    header("Location: response.php");
-
-    session_start();
-    $_SESSION["contact_name"] = htmlspecialchars($name);
-    $_SESSION["contact_email"] = htmlspecialchars($email);
-    $_SESSION["contact_details"] = htmlspecialchars($details);
-
-
-    return;
-  }
-}  else {
-  $success = true;
-}
-
-?>
-
-
-
-
-
 <!DOCTYPE html>
 <html>
 
@@ -51,7 +10,7 @@ if (isset($form)){
 
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all" />
 
-  <title> <?php echo $title;?> </title>
+  <title> Cedric Castillo </title>
 </head>
 
 <body>
