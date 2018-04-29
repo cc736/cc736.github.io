@@ -8,8 +8,8 @@
       <nav id="menu">
         <ul>
           <li> <a href="index.html"> Work </a> </li>
-          <li> <a href="code.html">Code </a> </li>
-          <li> <a href="about.html">About </a> </li>
+          <li> <a href="code.html"> Code </a> </li>
+          <li> <a href="about.html"> About </a> </li>
         </ul>
       </nav>
     </div>
