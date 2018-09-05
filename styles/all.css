@@ -265,7 +265,7 @@ input[type="submit"]{
 
 #about_header{
   width: 35%;
-  margin-left: 32.5%;
+  margin-left: 0px;
   border-radius: 7.5px;
   box-shadow: 0px 5px 10px #E7E7E7;
 }
