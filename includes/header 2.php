@@ -2,7 +2,7 @@
   <!-- create a parent flex box -->
   <div id="header_container">
     <!-- child 1 of flex -->
-    <h1 id="title"> Cedric Castillo </h1>
+    <h1 id="title"> </h1>
     <!-- child 2 of flex  -->
     <div id="menu_container">
       <nav id="menu">
