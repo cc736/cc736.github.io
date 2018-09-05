@@ -7,9 +7,9 @@
     <div id="menu_container">
       <nav id="menu">
         <ul>
-          <li>Work</li>
-          <li>Code</li>
-          <li>About</li>
+          <li> <a href="index.html"> Work </a> </li>
+          <li> <a href="code.html"> Code </a> </li>
+          <li> <a href="about.html"> About </a> </li>
         </ul>
       </nav>
     </div>
