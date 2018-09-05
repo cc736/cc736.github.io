@@ -7,10 +7,10 @@
     <div id="menu_container">
       <nav id="menu">
         <ul>
-          <li> <a href="index.html"> Work </a> </li>
+          <!-- <li> <a href="index.html"> Work </a> </li>
           <li> <a href="about.html"> About </a> </li>
           <li> <a href="https://www.linkedin.com/in/cedriccastillo/.html"> LinkedIn </a> </li>
-          <li> <a href="https://medium.com/@cedricast28"> Medium </a> </li>
+          <li> <a href="https://medium.com/@cedricast28"> Medium </a> </li> -->
         </ul>
       </nav>
     </div>
