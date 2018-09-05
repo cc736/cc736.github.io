@@ -75,7 +75,7 @@ header #menu_container{
 #menu a{
   text-decoration: none;
   font-size: 16px;
-  padding-left: 80px;
+  padding-left: 10.8%;
   padding-right: 1px;
 }
 
@@ -138,7 +138,7 @@ p.project_link{
 }
 .venmo_more{
   text-decoration: none;
-  color: #FFA491;
+  color: #3D95CE;
 }
 
 .venmo_more:hover{
@@ -147,16 +147,16 @@ p.project_link{
 }
 .events_more{
   text-decoration: none;
-  color: #89AAF7;
+  color: #FD555A;
 }
 .events_more:hover{
   text-decoration: none;
   color: black;
 }
 
-.edusim_more{
+.concord_more{
   text-decoration: none;
-  color: #FFEC92;
+  color: #0259F7;
 }
 
 /* code styling */
