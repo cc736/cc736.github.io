@@ -136,12 +136,12 @@ p.project_link{
   padding-right: 8%;
   padding-bottom: 6%
 }
-.venmo_more{
+.spotify_more{
   text-decoration: none;
-  color: #3D95CE;
+  color: #1CD760;
 }
 
-.venmo_more:hover{
+.spotify_more:hover{
   text-decoration: none;
   color: black;
 }
@@ -264,8 +264,8 @@ input[type="submit"]{
 }
 
 #about_header{
-  width: 70%;
-  margin-left: 15%;
+  width: 35%;
+  margin-left: 32.5%;
   border-radius: 7.5px;
   box-shadow: 0px 5px 10px #E7E7E7;
 }
