@@ -264,9 +264,6 @@ input[type="submit"]{
 }
 
 #about_header{
-  width: 35%;
-  margin-left: 32.5%;
-  border-radius: 5%;
   box-shadow: 0px 5px 10px #E7E7E7;
 }
 
@@ -279,7 +276,7 @@ input[type="submit"]{
 }
 
 #about_right{
-  flex: 1;
+  flex: 3;
 }
 
 /* response styling  */
