@@ -271,12 +271,14 @@ input[type="submit"]{
 }
 
 #about_left{
+  width: 70%;
+  margin-left: 15%;
   flex: 1;
 }
 
 #about_right{
   flex: 4;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 /* response styling  */
