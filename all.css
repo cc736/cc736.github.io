@@ -1,0 +1,12 @@
+p, h1, h2, h3, h4, a, ul{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container_main{
+  color: black;
+  background-color: white;
+  box-shadow: 10px 10px 5px grey;
+  margin: auto;
+  width: 50%;
+}
